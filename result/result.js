@@ -1,6 +1,7 @@
 // Carne - 400gr por pessoa + de 6horas - 650
 // Cerveja - 1200ml por Pessoa + 6 horas - 2000ml
 // Refrigerante/água - 1000ml por pessoa + 6 horas 1500ml
+// Suco - 600ml por pessoa 
 
 // Crianças valem por 0,5
 
@@ -19,12 +20,12 @@ function carnePP(duracao) {
   }
 }
 
-function cervejaPP(duracao) {
+function sucoPP(duracao) {
   
   if(duracao >= 6) {
-    return 2000;
+    return 1000;
   }else{
-    return 1200;
+    return 600;
   }
 }
 
@@ -43,7 +44,7 @@ function calcular() {
   const duracao = inputDuracao.value;
 
   const qdtTotalCarne = carnePP(duracao) * adultos + (carnePP(duracao) / 2 * criancas);
-  const qdtTotalCerveja = cervejaPP(duracao) * adultos;
+  const qdtTotalSuco = sucoPP(duracao) * adultos;
   const qdtTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
 
   //coloca-se o "+" após o sinal de "=" para deixar entendido que preciso imprimir mais de um innerHTML
@@ -56,19 +57,14 @@ function calcular() {
   `
   resultado.innerHTML += `
     <div class="result-block">
-      <img class="img" src="./assets/uvas.svg"/>
-      <p>${Math.ceil(qdtTotalCerveja/355)} latas de Cerveja</p>
+      <img class="img" src="./assets/juice.svg"/>
+      <p>${Math.ceil(qdtTotalSuco/1000)} Litros de Suco</p>
     </div>
   `
   resultado.innerHTML += `
-    <div class="result-block">
+    <div class="result-block ult">
       <img class="img" src="./assets/refri.svg"/>
-      <p>${Math.ceil(qdtTotalBebidas/2000)} garrafas de Bebidas</p>
+      <p>${Math.ceil(qdtTotalBebidas/2000)} Litros de Refrigerante</p>
     </div>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
   `
 }

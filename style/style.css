@@ -97,29 +97,31 @@ h1{
     text-align: center;
     color: #000;
     width: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 60px;
   }
-  
+  .result{
+    display: flex;
+    
+  }
   .result-block {
     display: flex;
     align-items: center;
-    margin: 0.5rem;
   }
-  
+  .ult{
+      margin-bottom: -200px;
+  }
   .result-block img {
     width: 3rem;
     height: 3rem;
-    margin: 0;
     margin-right: 0.5rem;
+    
   }
   
   .result-block p {
     font-family: "Poppins", sans-serif;
     text-align: center;
+    font-size: 15px;
     color: rgb(44, 44, 44);
-  }
-  .result{
-      margin-bottom: -60px;
   }
 @media screen and (max-width: 1300px){
     .juice{
