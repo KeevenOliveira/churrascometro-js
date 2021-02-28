@@ -18,11 +18,16 @@
     <div class="container">
         <div class="main">
             <img class="logo" src="./assets/Churrascometro.png">
-            <input class="input" name="adultos" placeholder="Adultos" type="number">
-            <input class="input" name="criancas" placeholder="Crianças" type="number">
-            <input class="input" name="duracao" placeholder="Duração (h)" type="number">
+            <label for="adultos" class="label">Quantidade de adultos</label>
+            <input class="input" id="adultos" name="adultos" placeholder="Adultos" type="number">
+            <label for="adultos" class="label">Quantidade de crianças</label>
+            <input class="input" id="criancas" name="criancas" placeholder="Crianças" type="number">
+            <label for="adultos"class="label">Duração do churrasco</label>
+            <input class="input" id="duracao" name="duracao" placeholder="Duração (h)" type="number">
             <button class="button" onclick="calcular()">Calcular</button>
+            <div id="result"></div>
         </div>
     </div>
+    <script src="./result/result.js"></script>
 </body>
 </html>
