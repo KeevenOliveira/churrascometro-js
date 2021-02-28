@@ -247,29 +247,81 @@ h1{
     .barbecue{
         position: absolute;
         width: 250px;
+        margin-left: 200px;
     }
     .dog{
         margin: 0px;
         position: absolute;
         width: 150px;
-        margin-left: 220px;
+        margin-left: 450px;
     }
     .container{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 40px;
+        margin-top: 200px;
     }
     .main{
-        margin-top: 150px;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 400px;
-        height: 500px;
-        margin-bottom: 0px;
+        height: 800px;
+        margin-bottom: -px;
     }
     .button{
         margin-bottom: -200px;
+    }
+    .result-info{
+        margin-top: 250px;
+    }
+}
+@media screen and (max-width: 650px){
+    .barbecue{
+        margin-left: 100px;
+    }
+    .dog{
+        margin-left: 350px;
+    }
+}
+@media screen and (max-width: 510px){
+    .barbecue{
+        margin-left: 50px;
+    }
+    .dog{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 510px){
+    .barbecue{
+        margin-left: 50px;
+    }
+    .dog{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 440px){
+    .barbecue{
+        margin-left: 20px;
+    }
+    .dog{
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width: 440px){
+    .barbecue{
+        margin-left: 20px;
+    }
+    .dog{
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width: 400px){
+    .barbecue{
+        width: 200px;
+    }
+    .dog{
+        width: 100px;
+        margin-left: 200px;
     }
 }
