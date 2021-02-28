@@ -48,7 +48,7 @@ function calcular() {
   const qdtTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
 
   if(adultos == ""){
-    return resultado.innerHTML =`<h2 class="result-info">Informação incompleta<h2>`
+    return resultado.innerHTML =`<h2 class="result-info ult">Informação incompleta<h2>`
   }
   //coloca-se o "+" após o sinal de "=" para deixar entendido que preciso imprimir mais de um innerHTML
   resultado.innerHTML = `<h2 class="result-info">Você vai precisar de:</h2>`
