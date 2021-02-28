@@ -9,13 +9,19 @@
     <title>Churrascômetro</title>
 </head>
 <body>
+    <div class="text">
+        <h1>Saiba quanta carne e bebida vai precisar!</h1>
+    </div>
+    <img class="barbecue" src="./assets/churras.png">
+    <img class="dog" src="./assets/dog.png">
+    <img class="juice" src="./assets/refri.png">
     <div class="container">
         <div class="main">
             <img class="logo" src="./assets/Churrascometro.png">
-            <input class="input" type="number">
-            <input class="input" type="number">
-            <input class="input" type="number">
-            <button class="button">Clique aqui</button>
+            <input class="input" name="adultos" placeholder="Adultos" type="number">
+            <input class="input" name="criancas" placeholder="Crianças" type="number">
+            <input class="input" name="duracao" placeholder="Duração (h)" type="number">
+            <button class="button" onclick="calcular()">Calcular</button>
         </div>
     </div>
 </body>
