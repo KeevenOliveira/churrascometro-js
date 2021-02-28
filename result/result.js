@@ -32,9 +32,9 @@ function sucoPP(duracao) {
 function bebidasPP(duracao) {
   
   if(duracao >= 6) {
-    return 1500;
-  }else{
     return 1000;
+  }else{
+    return 600;
   }
 }
 
@@ -58,7 +58,7 @@ function calcular() {
   resultado.innerHTML += `
     <div class="result-block">
       <img class="img" src="./assets/juice.svg"/>
-      <p>${Math.ceil(qdtTotalSuco/1000)} Litros de Suco</p>
+      <p>${Math.ceil(qdtTotalSuco/1500)} Litros de Suco</p>
     </div>
   `
   resultado.innerHTML += `
