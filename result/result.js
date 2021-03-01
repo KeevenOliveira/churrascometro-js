@@ -5,6 +5,8 @@
 
 // Crianças valem por 0,5
 
+var button = document.querySelector('.button');
+
 const inputAdultos = document.getElementById("adultos");
 const inputCriancas = document.getElementById("criancas");
 const inputDuracao = document.getElementById("duracao");
@@ -38,7 +40,20 @@ function bebidasPP(duracao) {
   }
 }
 
+// var i = 0;
+
+// button.addEventListener('click', function click(e){
+//   i++;
+//   console.log('Esse botão foi chamado %d vez', i);
+// })
+
+var clicked = false;
+
 function calcular() {
+
+  if(!clicked){
+    console.log('First click')
+
   const adultos = inputAdultos.value;
   const criancas = inputCriancas.value;
   const duracao = inputDuracao.value;
@@ -70,4 +85,12 @@ function calcular() {
       <p>${Math.ceil(qdtTotalBebidas/2000)} Litro(s) de Refrigerante</p>
     </div>
   `
+    clicked = false;
+  } else{
+    console.log('Clicked once more');
+  }
+  // button.addEventListener('click', function click(e){
+  //   i++;
+  //   console.log('Esse botão foi chamado %d vez', i);
+  // })
 }
