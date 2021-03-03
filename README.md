@@ -10,6 +10,7 @@
 🎉This is my "churrascômetro". It calculates how much drink and meat you going to need in your barbecue.
 
 * It's in development.🚀
+* ⚠ This images I catched in [Flaticon](http://flaticon.com/) and [UnDraw](https://undraw.co/).
 
 ❣Calculate [here](https://churrascometro-js.vercel.app/)
 
@@ -19,5 +20,6 @@
 🎉Este é meu "churrascômetro". Ele calcula quanta bebida e carne você vai precisar no seu churrasco.
 
 * Ele está em desenvolvimento.🚀
- 
+* ⚠ As imagens foram retiradas do [Flaticon](http://flaticon.com/) e do [UnDraw](https://undraw.co/).
+
 ❣ Calcule [aqui](https://churrascometro-js.vercel.app/)
