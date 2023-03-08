@@ -1,33 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="icon" href="./assets/icon.svg">
-    <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="icon" href="./assets/icon.svg" />
+    <link rel="stylesheet" type="text/css" href="./style/style.css" />
     <title>Churrascômetro</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="text">
-        <h1>Saiba quanta carne e bebida vai precisar!</h1>
+      <h1>Saiba quanta carne e bebida vai precisar!</h1>
     </div>
-    <img class="barbecue" src="./assets/barbecue.svg">
-    <img class="dog" src="./assets/dog.svg">
-    <img class="juice" src="./assets/drink.svg">
+    <img class="barbecue" src="./assets/barbecue.svg" />
+    <img class="dog" src="./assets/dog.svg" />
+    <img class="juice" src="./assets/drink.svg" />
     <div class="container">
-        <div class="main">
-            <img class="logo" src="./assets/Churrascometro.png">
-            <label for="adultos" class="label">Quantidade de adultos</label>
-            <input class="input" id="adultos" name="adultos" placeholder="Adultos" type="number">
-            <label for="adultos" class="label">Quantidade de crianças</label>
-            <input class="input" id="criancas" name="criancas" placeholder="Crianças" type="number">
-            <label for="adultos"class="label">Duração do churrasco</label>
-            <input class="input" id="duracao" name="duracao" placeholder="Duração (h)" type="number">
-            <button class="button" onclick="calcular()">Calcular</button>
-            <div id="result"></div>
+      <div class="main">
+        <img class="logo" src="./assets/Churrascometro.png" />
+        <label for="adultos" class="label">Quantidade de adultos</label>
+        <input
+          class="input"
+          id="adultos"
+          name="adultos"
+          placeholder="Adultos"
+          type="number"
+        />
+        <label for="adultos" class="label">Quantidade de crianças</label>
+        <input
+          class="input"
+          id="criancas"
+          name="criancas"
+          placeholder="Crianças"
+          type="number"
+        />
+        <label for="adultos" class="label">Duração do churrasco</label>
+        <input
+          class="input"
+          id="duracao"
+          name="duracao"
+          placeholder="Duração (h)"
+          type="number"
+        />
+        <div onclick="calcular()">
+          <button class="button">Calcular</button>
         </div>
+        <div id="result"></div>
+      </div>
     </div>
     <script src="./result/result.js"></script>
-</body>
+  </body>
 </html>

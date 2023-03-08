@@ -1,340 +1,340 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(85, 85, 88);
+  box-sizing: border-box;
+  font-size: 60%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  display: grid;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: -140px;
+  /* width: 100px; */
+}
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(85, 85, 88);
-    box-sizing: border-box;
-    font-size: 60%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.main {
+  box-sizing: border-box;
+  background-color: rgb(255, 136, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  text-align: center;
+  /* width: 450px; */
+  /* height: 770px; */
+  width: 100% + 30px;
+  height: 98vh;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
-.container{
-    display: grid;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: -140px;
-    /* width: 100px; */
+.logo {
+  width: 300px;
+  margin-top: -350px;
+  margin-bottom: -50px;
 }
-
-.main{
-    box-sizing: border-box;
-    background-color: rgb(255, 136, 1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 30px;
-    text-align: center;
-    /* width: 450px; */
-    /* height: 770px; */
-    width: 100% + 30px;
-    height: 98vh;
-    justify-content: center;
-    margin-bottom: 0.5rem;
+.input {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 70px;
+  padding-right: 70px;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
 }
-.logo{
-    width: 300px;
-    margin-top: -350px;
-    margin-bottom: -50px;
+.button {
+  margin-top: 10px;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(252, 203, 113, 0.808);
+  /* font-size: 2rem; */
+  outline: none;
+  font-size: 18px;
+  margin-bottom: -40px;
 }
-.input{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 5px;
-    border: none;
-    border-radius: 10px;
-    padding: 15px;
-    padding-left: 70px;
-    padding-right: 70px;
-    outline: none;
-    text-align: center;
-    font-size: 18px;
-
+.button:hover {
+  background-color: rgb(248, 211, 130);
 }
-.button{
-    margin-top: 10px;
-    width: 150px;
-    height: 50px;
-    border-radius: 20px;
-    border: none;
-    background-color: rgba(252, 203, 113, 0.808);
-    /* font-size: 2rem; */
-    outline: none;
-    font-size: 18px;
-    margin-bottom: -40px;
+.text {
+  display: flex;
 }
-.button:hover{
-    background-color: rgb(248, 211, 130);;
+h1 {
+  /* width: 200px; */
+  display: inline;
+  color: white;
+  font-size: 35px;
+  margin: 50px;
 }
-.text{
-    display: flex;
+.barbecue {
+  margin-top: -40px;
+  position: absolute;
+  width: 420px;
 }
-h1{
-    /* width: 200px; */
-    display: inline;
-    color: white;
-    font-size: 35px;
-    margin: 50px;
+.dog {
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 160px;
+  width: 200px;
 }
-.barbecue{
-    margin-top: -40px;
-    position: absolute;
-    width: 420px;
+.juice {
+  position: absolute;
+  width: 400px;
+  margin-top: -20px;
+  margin-left: 36%;
 }
-.dog{
-    position: absolute;
-    margin-top: 380px;
-    margin-left: 160px;
-    width: 200px;
-}
-.juice{
-    position: absolute;
-    width: 400px;
-    margin-top: -20px;
-    margin-left: 36%;
-}
-.label{
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 10px;
-    margin-bottom: 2px;
-    font-size: 18px;
+.label {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-size: 18px;
 }
 .result-info {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    color: #000;
-    width: 0 auto;
-    margin-top: 60px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #000;
+  width: 0 auto;
+  margin-top: 60px;
+}
+.result {
+  display: flex;
+}
+.result-block {
+  display: flex;
+  align-items: center;
+}
+.ult {
+  margin-bottom: -200px;
+}
+.result-block img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+}
+
+.result-block p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(44, 44, 44);
+}
+@media screen and (max-width: 1300px) {
+  .juice {
+    position: absolute;
+    width: 300px;
   }
-  .result{
-    display: flex;
-    
+  .barbecue {
+    position: absolute;
+    width: 380px;
   }
-  .result-block {
+  .dog {
+    /* margin-top:;  */
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .juice {
+    position: absolute;
+    width: 250px;
+  }
+  .barbecue {
+    position: absolute;
+    width: 350px;
+  }
+  .dog {
+    margin-top: 320px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .juice {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  .barbecue {
+    position: absolute;
+    width: 300px;
+  }
+  .dog {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .juice {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  .barbecue {
+    position: absolute;
+    width: 250px;
+  }
+  .dog {
+    width: 150px;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .juice {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  .barbecue {
+    position: absolute;
+    width: 300px;
+  }
+  .dog {
+    width: 150px;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .juice {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  .barbecue {
+    position: absolute;
+    width: 300px;
+  }
+  .dog {
+    width: 150px;
+  }
+  .main {
+    width: 350px;
+  }
+  .input {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .juice {
+    display: block;
+    width: 200px;
+    display: none;
+  }
+  .barbecue {
+    position: absolute;
+    width: 200px;
+    margin-left: 200px;
+  }
+  .dog {
+    margin: 0px;
+    position: absolute;
+    width: 100px;
+    margin-left: 450px;
+  }
+  .container {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 200px;
   }
-  .ult{
-      margin-bottom: -200px;
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 800px;
+    margin-bottom: -px;
   }
-  .result-block img {
-    width: 3rem;
-    height: 3rem;
-    margin-right: 0.5rem;
-    
+  .button {
+    margin-bottom: -200px;
   }
-  
-  .result-block p {
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    font-size: 15px;
-    color: rgb(44, 44, 44);
+  .result-info {
+    margin-top: 250px;
   }
-@media screen and (max-width: 1300px){
-    .juice{
-        position: absolute;
-        width: 300px;
-    }
-    .barbecue{
-        position: absolute;
-        width: 380px;
-    }
-    .dog{
-        /* margin-top:;  */
-        width: 150px;
-        
-    }
 }
-@media screen and (max-width: 1190px){
-    h1{
-        font-size: 30px;
-    }
 
-    .juice{
-        position: absolute;
-        width: 250px;
-    }
-    .barbecue{
-        position: absolute;
-        width: 350px;
-    }
-    .dog{
-        margin-top: 320px;
-        width: 150px;
-    }
+@media screen and (max-width: 650px) {
+  .barbecue {
+    margin-left: 100px;
+  }
+  .dog {
+    margin-left: 350px;
+  }
 }
-@media screen and (max-width: 1090px){
-    h1{
-        font-size: 25px;
-    }
 
-    .juice{
-        position: absolute;
-        width: 200px;
-        display: none;
-    }
-    .barbecue{
-        position: absolute;
-        width: 300px;
-    }
-    .dog{
-        width: 150px;
-    }
+@media screen and (max-width: 510px) {
+  .barbecue {
+    margin-left: 50px;
+  }
+  .dog {
+    margin-left: 300px;
+  }
 }
-@media screen and (max-width: 1090px){
-    h1{
-        font-size: 25px;
-    }
 
-    .juice{
-        position: absolute;
-        width: 200px;
-        display: none;
-    }
-    .barbecue{
-        position: absolute;
-        width: 250px;
-    }
-    .dog{
-        width: 150px;
-    }
-    .container{
-        width: 100%;
-        height: 100vh;
-    }
+@media screen and (max-width: 510px) {
+  .barbecue {
+    margin-left: 50px;
+  }
+  .dog {
+    margin-left: 300px;
+  }
 }
-@media screen and (max-width: 980px){
-    h1{
-        font-size: 20px;
-    }
 
-    .juice{
-        position: absolute;
-        width: 200px;
-        display: none;
-    }
-    .barbecue{
-        position: absolute;
-        width: 300px;
-    }
-    .dog{
-        width: 150px;
-    }
-    .container{
-        width: 100%;
-        height: 100vh;
-    }
-}  
-@media screen and (max-width: 980px){
-    h1{
-        font-size: 20px;
-    }
+@media screen and (max-width: 440px) {
+  .barbecue {
+    margin-left: 20px;
+  }
+  .dog {
+    margin-left: 250px;
+  }
+}
 
-    .juice{
-        position: absolute;
-        width: 200px;
-        display: none;
-    }
-    .barbecue{
-        position: absolute;
-        width: 300px;
-    }
-    .dog{
-        width: 150px;
-    }
-    .main{
-        width: 350px;
-    }
-    .input{
-        padding: 15px;
-    }
-}
-@media screen and (max-width: 790px){
-    h1{
-        font-size: 25px;
-    }
-
-    .juice{
-        display: block;
-        width: 200px;
-        display: none;
-    }
-    .barbecue{
-        position: absolute;
-        width: 200px;
-        margin-left: 200px;
-    }
-    .dog{
-        margin: 0px;
-        position: absolute;
-        width: 100px;
-        margin-left: 450px;
-    }
-    .container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 200px;
-    }
-    .main{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 400px;
-        height: 800px;
-        margin-bottom: -px;
-    }
-    .button{
-        margin-bottom: -200px;
-    }
-    .result-info{
-        margin-top: 250px;
-    }
-}
-@media screen and (max-width: 650px){
-    .barbecue{
-        margin-left: 100px;
-    }
-    .dog{
-        margin-left: 350px;
-    }
-}
-@media screen and (max-width: 510px){
-    .barbecue{
-        margin-left: 50px;
-    }
-    .dog{
-        margin-left: 300px;
-    }
-}
-@media screen and (max-width: 510px){
-    .barbecue{
-        margin-left: 50px;
-    }
-    .dog{
-        margin-left: 300px;
-    }
-}
-@media screen and (max-width: 440px){
-    .barbecue{
-        margin-left: 20px;
-    }
-    .dog{
-        margin-left: 250px;
-    }
-}
-@media screen and (max-width: 440px){
-    .barbecue{
-        margin-left: 20px;
-    }
-    .dog{
-        margin-left: 250px;
-    }
-}
-@media screen and (max-width: 400px){
-    .barbecue{
-        width: 150px;
-    }
-    .dog{
-        width: 80px;
-        margin-left: 200px;
-    }
+@media screen and (max-width: 400px) {
+  .barbecue {
+    width: 150px;
+  }
+  .dog {
+    width: 80px;
+    margin-left: 200px;
+  }
 }
